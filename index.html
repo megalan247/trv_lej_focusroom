@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Checkin/Checkout Focus Room</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<div class="flex-container">
+		
+		<div class="info-pane">
+			<h1>Leipzig Focus Room</h1>
+			<p>
+				To book a desk, simply tap one of the desks to the right so they turn red. This means the desk is booked and it will remain booked for 1 hour from checkin. If you want to extend the booking, tap the desk again to extend in 30 minute intervals.
+			</p>
+			<p>
+				Once you are finished with the room, tap the "Checkout" button on teh desk to checkout and free the desk for another person.
+			</p>
+		</div>
+		
+		<div class="desk-container">
+			<div class="desk-row">
+				<div class="desk" id="desk1">
+					<h2>Desk 1</h2>
+					<div class="booking-pane" id="desk1-book" onclick="bookDesk(this.parentElement.id)">
+						Tap to Book
+					</div>
+					<div class="checkout-pane" id="desk1-checkout" onclick="checkoutDesk(this.parentElement.id)">
+						Checkout
+					</div>
+				</div>
+				<div class="desk" id="desk2">
+				<h2>Desk 2</h2>
+					<div class="booking-pane" id="desk2-book" onclick="bookDesk(this.parentElement.id)">
+						Tap to Book
+					</div>
+					<div class="checkout-pane" id="desk2-checkout" onclick="checkoutDesk(this.parentElement.id)">
+						Checkout
+					</div>
+				</div>
+			</div>
+			<div class="desk-row">
+				<div class="desk" id="desk3">
+				<h2>Desk 3</h2>
+					<div class="booking-pane" id="desk3-book" onclick="bookDesk(this.parentElement.id)">
+						Tap to Book
+					</div>
+					<div class="checkout-pane" id="desk3-checkout" onclick="checkoutDesk(this.parentElement.id)">
+						Checkout
+					</div>					
+				</div>
+				<div class="desk" id="desk4">
+				<h2>Desk 4</h2>
+					<div class="booking-pane" id="desk4-book" onclick="bookDesk(this.parentElement.id)">
+						Tap to Book
+					</div>
+					<div class="checkout-pane" id="desk4-checkout" onclick="checkoutDesk(this.parentElement.id)">
+						Checkout
+					</div>					
+				</div>
+			</div>
+		</div>
+		
+	</div>
+
+	
+	<script src="js/app.js"></script>	
+</body>
+
+</html>
