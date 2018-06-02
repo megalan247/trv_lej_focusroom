@@ -35,8 +35,9 @@ body {
 }
 
 .info-pane {
-	width: 20vw;
+	padding: 1vh 4vmax;
 	text-align: justify;
+	font-size: 2vmax;
 }
 
 .checkout-pane {
@@ -45,17 +46,22 @@ body {
 	width: 100%;
 	padding: 2vh 0;
 	display: none;
-	font-size: 3em;
+	font-size: 3vw;
 	border-top: 4px solid black;
 }
 
 .booking-pane {
 	height: 100%;
 	padding: 2vw 2vh;
-	font-size: 3em;
+	font-size: 2vw;
 	
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 5vw;
+	text-align: left;
+}
+
+h2 {
+	font-size: 3vw;
 }
