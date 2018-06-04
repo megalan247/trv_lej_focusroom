@@ -53,11 +53,10 @@ body {
 	padding: 2vh 0;
 	display: none;
 	font-size: 3vw;
-	border-top: 4px solid black;
+	border-top: 2px solid black;
 }
 
 .booking-pane {
-	height: 100%;
 	padding: 5vh 0 2vw 0;
 	font-size: 4vw;
 	
