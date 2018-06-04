@@ -8,9 +8,8 @@ function bookDesk(deskID) {
 		document.getElementById(deskID).style.backgroundColor = "red";
 		document.getElementById(deskID + "-checkout").style.display = "block";
 		document.getElementById(deskID + "-book").innerHTML = new Date(localStorage.getItem(deskID + "-booktime") * 1000).toISOString().substr(11, 8);
-		
+		document.getElementById(deskID + "-status").innerHTML = "Booked";
 		var deskCountdown = setInterval(function() {
-			
 			if ((document.getElementById(deskID).style.backgroundColor == "green") || (localStorage.getItem(deskID + "-booktime") == 0)) {
 				clearInterval(deskCountdown);
 				checkoutDesk(deskID);
@@ -29,4 +28,5 @@ function checkoutDesk(deskID) {
 	document.getElementById(deskID).style.backgroundColor = "green";
 	document.getElementById(deskID + "-checkout").style.display = "none";
 	document.getElementById(deskID + "-book").innerHTML = "Tap to book";
+	document.getElementById(deskID + "-status").innerHTML = "Available";
 }

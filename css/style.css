@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+
 html {
-	font-family: sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color: #fcfcfc;
 	color: #37454D;
+	font-weight: 300;
 }
 
 body {
@@ -40,6 +43,7 @@ body {
 	padding: 1vh 4vmax;
 	text-align: justify;
 	font-size: 2vmax;
+	
 }
 
 .checkout-pane {
@@ -54,12 +58,18 @@ body {
 
 .booking-pane {
 	height: 100%;
-	padding: 15vh 0 2vw 0;
-	font-size: 2vw;
+	padding: 5vh 0 2vw 0;
+	font-size: 4vw;
 	
 }
 
 h1 {
 	font-size: 5vw;
 	text-align: left;
+	font-weight: 300;
+}
+
+.status {
+	font-size: 2vw;
+	padding: 5vh 0 0 0;
 }
