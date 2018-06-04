@@ -27,6 +27,6 @@ function checkoutDesk(deskID) {
 	localStorage.removeItem(deskID + "-booktime");
 	document.getElementById(deskID).style.backgroundColor = "green";
 	document.getElementById(deskID + "-checkout").style.display = "none";
-	document.getElementById(deskID + "-book").innerHTML = "Tap to book";
+	document.getElementById(deskID + "-book").innerHTML = "Tap to Book";
 	document.getElementById(deskID + "-status").innerHTML = "Available";
 }
