@@ -1,5 +1,7 @@
 html {
 	font-family: sans-serif;
+	background-color: #fcfcfc;
+	color: #37454D;
 }
 
 body {
@@ -23,7 +25,7 @@ body {
 	height: 45vh;
 	background-color: green;
 	margin: 1vh 1vw;
-	
+	color: #fcfcfc;
 	text-align: center;
 }
 
@@ -52,7 +54,7 @@ body {
 
 .booking-pane {
 	height: 100%;
-	padding: 2vw 2vh;
+	padding: 15vh 0 2vw 0;
 	font-size: 2vw;
 	
 }
@@ -60,8 +62,4 @@ body {
 h1 {
 	font-size: 5vw;
 	text-align: left;
-}
-
-h2 {
-	font-size: 3vw;
 }
