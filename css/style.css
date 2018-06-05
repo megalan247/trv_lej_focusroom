@@ -5,10 +5,13 @@ html {
 	background-color: #fcfcfc;
 	color: #37454D;
 	font-weight: 300;
+	height:100%;
+	margin:0;
 }
 
 body {
-	
+	height:100%;
+	margin: 0;
 }
 
 .desk-container {
@@ -21,7 +24,6 @@ body {
 .desk-row {
 	flex-direction: row;
 	display: flex;
-	
 }
 
 .desk {
@@ -32,17 +34,21 @@ body {
 	margin: 1vh 1vw;
 	color: #fcfcfc;
 	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center
 }
 
 .flex-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+	height: 100%;
 	
 }
 
 .info-pane {
-	padding: 1vh 4vmax;
+	padding: 0 4vmax;
 	text-align: justify;
 	font-size: 2vmax;
 	display: flex;
@@ -74,6 +80,25 @@ h1 {
 }
 
 .status {
+	position: absolute;
+	top: 0;
 	font-size: 2vw;
 	padding: 5vh 0 0 0;
+	width: 100%
+}
+
+p {
+	margin:1vh 0;
+}
+
+h1 {
+	margin-bottom: 3vh;
+}
+
+h3 {
+	margin: 2vh 0;
+}
+
+h2 {
+	margin: 0;
 }
